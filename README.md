@@ -1,7 +1,7 @@
 # 🧮 MathBrain - Jogo de Matemática
 ## Descrição do projeto
 Inspirado no aplicativo Duolingo Math, o MathBrain é um jogo educativo que estimula o raciocínio lógico e a prática das quatro operações básicas da matemática. Com a proposta de uma abordagem leve e divertida, o jogo busca transformar o aprendizado em uma experiência descontraída.
-## 📝Instalção e uso
+## 📝Instalação e uso
 1. **Baixar o arquivo do GitHub**
 <div align="center">
   <img src="https://github.com/user-attachments/assets/172378a7-2ec9-4b33-91ca-f83c299d6685" alt="Descrição"/>
