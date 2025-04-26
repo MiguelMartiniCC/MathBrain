@@ -9,18 +9,21 @@ public class JogoMatematica{
     public void menuPrincipal() {
         int opcao = 0;
 
-        Usuario teste1 = new Usuario("Miguel", 1); //usuario de teste lvl1
-        Usuario teste5 = new Usuario("Carol", 5); //usuario de teste lvl5
-
+//      Criando usuários com lvls diferentes
+        Usuario teste1 = new Usuario("User1", 1); //usuario de teste lvl1
+        Usuario teste5 = new Usuario("User5", 5); //usuario de teste lvl5
         usuarios.add(teste1);
         usuarios.add(teste5);
 
         do {
+//            Menu de inicialização do jogo
             System.out.println("\n--- MENU ---");
             System.out.println("1 - Adicionar usuário");
             System.out.println("2 - Iniciar quiz");
             System.out.println("3 - Mostrar usuários");
             System.out.println("4 - Sair");
+
+//            Caso seja diferente de um número, faz um try Catch
             try{
                 opcao = Integer.parseInt(input.nextLine());
             }catch (NumberFormatException e){
@@ -61,9 +64,10 @@ public class JogoMatematica{
     }
 
     public void iniciarQuiz() {
+//        verifica se a lista de usuários esta vazia
         if (usuarios.isEmpty()) {
             System.out.println("Nenhum usuário cadastrado!");
-            return;// para a execução
+            return;// para a execução deste bloco de código
         }
 
         System.out.println("Escolha um usuário para jogar:");
