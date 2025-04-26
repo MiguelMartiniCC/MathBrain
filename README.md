@@ -13,7 +13,8 @@ Inspirado no aplicativo Duolingo Math, o MathBrain é um jogo educativo que esti
 </br>`Usuario teste5 = new Usuario("User5", 5); //usuario de teste lvl5`
 
 ## Diagrama UML   
-![Classe UML](https://github.com/user-attachments/assets/997ac179-23d9-4d4a-8231-4081db9d3142)
+![Classe UML](https://github.com/user-attachments/assets/56068247-bb09-4361-8758-d5e085c472f3)
+
 
 ## **Autores**
 [MiguelMartiniCC-GitHub](https://github.com/MiguelMartiniCC)
